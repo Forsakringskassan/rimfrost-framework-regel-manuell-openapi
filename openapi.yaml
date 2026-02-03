@@ -1,0 +1,26 @@
+openapi: 3.1.0
+info:
+  title: OUL Done API
+  version: 1.0.0
+  description: Gemensamt API för att markera ett kundbehovsflöde som slutfört
+
+paths:
+  /{kundbehovsflodeId}/done:
+    post:
+      tags: [OulDoneController]
+      operationId: markDone
+      summary: Slutför manuell kontroll
+      description: Markerar ett kundbehovsflöde som färdigbehandlat
+      parameters:
+        - name: kundbehovsflodeId
+          in: path
+          required: true
+          description: ID för kundbehovsflödet
+          schema:
+            type: string
+            format: uuid
+      responses:
+        "200":
+          description: Kontroll slutförd OK
+        "404":
+          description: Informationen hittades inte
