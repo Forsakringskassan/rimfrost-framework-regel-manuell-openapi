@@ -2,9 +2,9 @@
 
 ### Features
 
--  Initial import from rimfrost-regel-common-openapi ([f3a6c](https://github.com/Forsakringskassan/rimfrost-framework-oul-openapi/commit/f3a6c0b0a536c7d) Lars Persson)  
+-  Initial import from rimfrost-regel-common-openapi ([f3a6c](https://github.com/Forsakringskassan/rimfrost-framework-regel-manuell-openapi/commit/f3a6c0b0a536c7d) Lars Persson)  
 
-# rimfrost-framework-oul-openapi changelog
+# rimfrost-framework-regel-manuell-openapi changelog
 
-Changelog of rimfrost-framework-oul-openapi.
+Changelog of rimfrost-framework-regel-manuell-openapi.
 

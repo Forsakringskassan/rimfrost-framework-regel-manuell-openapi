@@ -25,13 +25,13 @@ allprojects {
 	}
 }
 
-project("rimfrost-framework-oul-openapi-spec",{
+project("rimfrost-framework-regel-manuell-openapi-spec",{
 	fkOpenApi {
 		generatorName.set("openapi-yaml")
 	}
 })
 
-project("rimfrost-framework-oul-openapi-jaxrs-spec",{
+project("rimfrost-framework-regel-manuell-openapi-jaxrs-spec",{
 	fkOpenApi {
 		generatorName.set("jaxrs-spec")
 	}
