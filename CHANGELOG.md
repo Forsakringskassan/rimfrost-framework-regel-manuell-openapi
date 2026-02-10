@@ -1,3 +1,9 @@
+## 0.3.0 (2026-02-10)
+
+### Bug Fixes
+
+-  Rename all occurances of OUL to regel-manuell ([04c41](https://github.com/Forsakringskassan/rimfrost-framework-regel-manuell-openapi/commit/04c411f24df9865) Lars Persson)  
+
 ## 0.1.0 (2026-02-03)
 
 ### Features
