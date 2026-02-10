@@ -1,13 +1,13 @@
 openapi: 3.1.0
 info:
-  title: OUL Done API
+  title: Regel Manuell API
   version: 1.0.0
-  description: Gemensamt API för att markera ett kundbehovsflöde som slutfört
+  description: Gemensamt API för en manuell regel
 
 paths:
   /{kundbehovsflodeId}/done:
     post:
-      tags: [OulDoneController]
+      tags: [RegelManuellController]
       operationId: markDone
       summary: Slutför manuell kontroll
       description: Markerar ett kundbehovsflöde som färdigbehandlat

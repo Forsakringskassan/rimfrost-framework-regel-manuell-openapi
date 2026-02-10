@@ -1,3 +1,3 @@
-# rimfrost-framework-oul-openapi
+# rimfrost-framework-regel-manuell-openapi
 
 Gemensamma openapi-definitioner för Rimfrost regler. 
