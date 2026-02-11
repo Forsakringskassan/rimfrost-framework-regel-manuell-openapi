@@ -1,3 +1,10 @@
+## 0.3.2 (2026-02-11)
+
+### Bug Fixes
+
+-  Missed UppgiftBeskrivning -> Uppgiftsbeskrivning ([21c8f](https://github.com/Forsakringskassan/rimfrost-framework-regel-manuell-openapi/commit/21c8ffdc9ddb5da) Lars Persson)  
+-  UppgiftBeskrivning -> Uppgiftsbeskrivning ([0a6f0](https://github.com/Forsakringskassan/rimfrost-framework-regel-manuell-openapi/commit/0a6f0ea3f76440e) Lars Persson)  
+
 ## 0.3.1 (2026-02-11)
 
 ### Bug Fixes
