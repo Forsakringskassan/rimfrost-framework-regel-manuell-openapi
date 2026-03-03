@@ -18,17 +18,17 @@ paths:
               schema:
                 $ref: "#/components/schemas/GetUtokadUppgiftsbeskrivningResponse"
 
-  /{kundbehovsflodeId}/done:
+  /{handlaggningId}/done:
     post:
       tags: [RegelManuellController]
       operationId: markDone
       summary: Slutför manuell kontroll
-      description: Markerar ett kundbehovsflöde som färdigbehandlat
+      description: Markerar ett handläggningsärende som färdigbehandlat
       parameters:
-        - name: kundbehovsflodeId
+        - name: handlaggningId
           in: path
           required: true
-          description: ID för kundbehovsflödet
+          description: ID för handläggningsärendet
           schema:
             type: string
             format: uuid
