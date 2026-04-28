@@ -1,3 +1,13 @@
+## 1.0.0 (2026-04-28)
+
+### Breaking changes
+
+-  release 1.0 ([ecfcf](https://github.com/Forsakringskassan/rimfrost-framework-regel-manuell-openapi/commit/ecfcf53a38a3955) Nils Elveros)  
+
+### Features
+
+-  release 1.0 ([ecfcf](https://github.com/Forsakringskassan/rimfrost-framework-regel-manuell-openapi/commit/ecfcf53a38a3955) Nils Elveros)  
+
 ## 0.3.3 (2026-03-04)
 
 ### Bug Fixes
