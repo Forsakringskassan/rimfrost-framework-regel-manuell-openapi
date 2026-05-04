@@ -37,9 +37,28 @@ paths:
           description: Kontroll slutförd OK
         "404":
           description: Informationen hittades inte
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
 
 components:
   schemas:
+    ErrorResponse:
+      type: object
+      required:
+        - code
+        - message
+      properties:
+        code:
+          type: integer
+          description: HTTP-statuskod
+          example: 404
+        message:
+          type: string
+          description: Beskrivning av felet
+          example: Handläggningsärendet hittades inte
+
     GetUtokadUppgiftsbeskrivningResponse:
       type: object
       properties:
