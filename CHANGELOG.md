@@ -1,3 +1,9 @@
+## 1.0.1 (2026-05-04)
+
+### Bug Fixes
+
+-  Add error response ([ce2bc](https://github.com/Forsakringskassan/rimfrost-framework-regel-manuell-openapi/commit/ce2bc3a6f0c2c1f) Nils Elveros)  
+
 ## 1.0.0 (2026-04-28)
 
 ### Breaking changes
