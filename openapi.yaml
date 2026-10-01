@@ -92,8 +92,7 @@ components:
     bearerAuth:
       type: http
       scheme: bearer
-      bearerFormat: JWT
-      description: JWT utfärdat av identitetsleverantören. Ramverket extraherar handläggarens identitet från token.
+      description: Bearer-token utfärdat av identitetsleverantören. Ramverket extraherar handläggarens identitet från token.
 
   schemas:
     ErrorResponse:
