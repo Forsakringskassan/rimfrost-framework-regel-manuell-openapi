@@ -1,3 +1,10 @@
+## 1.1.1 (2026-10-01)
+
+### Bug Fixes
+
+-  Remove JWT restriction from bearerAuth scheme ([bbc93](https://github.com/Forsakringskassan/rimfrost-framework-regel-manuell-openapi/commit/bbc93b7ca2f0146) Ulf Slunga)  
+-  Add bearerAuth scheme and document error responses ([3f4ef](https://github.com/Forsakringskassan/rimfrost-framework-regel-manuell-openapi/commit/3f4ef5a97b14f83) Ulf Slunga)  
+
 ## 1.0.1 (2026-05-04)
 
 ### Bug Fixes
